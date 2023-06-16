@@ -49,3 +49,6 @@ Route::get('/contact', function () {
 })->name('contactus');
 
 Route::get('Albab', 'hellow Albab');
+
+
+Route::get('Hellow', 'Hellow Albab 2');
