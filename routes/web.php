@@ -47,3 +47,5 @@ Route::middleware(['key'])->group(function (){
 Route::get('/contact', function () {
     return view('contactus');
 })->name('contactus');
+
+Route::get('Albab', 'hellow Albab');

@@ -16,6 +16,6 @@ class underCunstraction
      */
     public function handle(Request $request, Closure $next): Response
     {
-        throw new HttpException(503); ghsdfghdg
+        throw new HttpException(503);
     }
 }
